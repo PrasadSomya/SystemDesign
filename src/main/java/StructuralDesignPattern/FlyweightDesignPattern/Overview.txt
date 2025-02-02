@@ -1,0 +1,2 @@
+1. It is a Structural design pattern.
+2. It use to reduce memory usage by sharing data among multiple objects.
