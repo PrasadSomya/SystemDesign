@@ -1,2 +1,14 @@
 1. It is a Structural design pattern.
 2. It use to reduce memory usage by sharing data among multiple objects.
+
+Benefits of Flyweight Pattern:
+--------------------------------
+1. Memory Efficient: Instead of creating multiple instances of the same object (like the character 'A'), we reuse them, saving memory.
+2. Better Performance: Reduces the number of objects being created.
+3. Decouples Shared State from Specific State: The shared state is stored in the flyweight objects, while the varying states are kept outside in the context.
+
+
+When to Use Flyweight:
+--------------------------
+1. When your application creates a large number of similar objects.
+2. When you need to reduce memory consumption in systems with a large amount of data sharing.
